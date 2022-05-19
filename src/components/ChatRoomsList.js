@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import ChatRoomitem from './ChatRoomitem';
-import CreateRoomModal from './CreateRoomModal';
-import roomStore from '../stores/roomStore';
-import { observer } from 'mobx-react';
+import React, { useState } from "react";
+import ChatRoomitem from "./ChatRoomitem";
+import CreateRoomModal from "./CreateRoomModal";
+import roomStore from "../stores/roomStore";
+import { observer } from "mobx-react";
 function ChatRoomsList() {
   const [isOpen, setIsOpen] = useState(false);
 
